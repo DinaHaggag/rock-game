@@ -1,0 +1,48 @@
+body {
+    background-image: linear-gradient(to left ,#10386D,#9EBDEB);
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.score p {
+    text-align: center;
+}
+.playerchoice {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 70px 270px;
+}
+.rock , .paper , .scissors {
+    width: 100px;
+    height: 40px;
+    background-color: #607EAA ;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.choose {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px;
+}
+.move {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.result{
+    font-size: 1.2rem;
+    text-align: center;
+}
