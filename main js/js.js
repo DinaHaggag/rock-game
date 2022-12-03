@@ -10,7 +10,7 @@ const game = () => {
         
         const rockBtn = document.querySelector('.rock');
         const paperBtn = document.querySelector('.paper');
-        const scissorBtn = document.querySelector('.scissor');
+        const scissorBtn = document.querySelector('.scissors');
         const playerSelection = [rockBtn,paperBtn,scissorBtn];
         const computerOptions = ['rock','paper','scissors'];
 
@@ -102,7 +102,7 @@ const game = () => {
         if(playerScore > computerScore){
             result.style.fontSize = '2rem';
             result.innerText = 'You Won The Game'
-            result.style.color = '#308D46';
+            result.style.color = 'green';
         }
         else if(playerScore < computerScore){
             result.style.fontSize = '2rem';
@@ -115,7 +115,8 @@ const game = () => {
             result.style.color = 'grey'
         }
         reloadBtn.innerText = 'Restart';
-        reloadBtn.style.display = 'flex'
+        reloadBtn.style.display = 'flex';
+
         reloadBtn.addEventListener('click',() => {
             window.location.reload();
         })
