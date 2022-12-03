@@ -46,3 +46,17 @@ h1{
     font-size: 1.2rem;
     text-align: center;
 }
+.reload {
+    display: none;
+    margin-top: 30px;
+    margin-left: 45%;
+    padding: 10px  10px  10px  28px;
+    background: #072655;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+}
